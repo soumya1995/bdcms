@@ -1,0 +1,3 @@
+2017-03-06  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
+	* setup.php: database initialization script, unfinished
+	* .gitignore: ignore binaries
