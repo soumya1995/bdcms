@@ -1,3 +1,6 @@
+2017-03-07  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
+	* setup.php: efficient review
+	* .gitignore: ignore binaries
+
 2017-03-06  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
 	* setup.php: database initialization script, unfinished
-	* .gitignore: ignore binaries

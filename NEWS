@@ -1,2 +1,5 @@
+Version 0.8.2 (7 March 2017)
+ * Thorough code review of database setup script.
+
 Version 0.8.1 (6 March 2017)
  * An unfinished database setup script.
