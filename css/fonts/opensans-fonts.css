@@ -1,0 +1,110 @@
+/*
+ * Copyright (C) 2016 Haxorsoft, Inc. All Rights Reserved.
+ *
+ * No part of this publication may be reproduced, distributed, or
+ * transmitted in any form or by any means, including photocopying,
+ * recording, or other electronic or mechanical methods, without the prior
+ * written permission of the publisher, except in the case of brief
+ * quotations embodied in critical reviews and certain other noncommercial
+ * uses permitted by copyright law. For permission requests, write to the
+ * publisher, addressed “Attention: Permissions Coordinator,” at the address
+ * below.
+ *
+ * Haxorsoft, Inc
+ * 10 Bay Ave
+ * Huntington, NY 11743
+ * www.haxorsoft.com
+ */
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  src:  url( '/fonts/OpenSans-BoldItalic.eot' );
+  src:  url( '/fonts/OpenSans-BoltItalic.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-BoldItalic.svg#open_sansbold_italic' ) format( 'svg' ),
+        url( '/fonts/OpenSans-BoldItalic.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-BoldItalic.woff' ) format( 'woff' );
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  src:  url( '/fonts/OpenSans-Bold.eot' );
+  src:  url( '/fonts/OpenSans-Bolt.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-Bold.svg#open_sansbold' ) format( 'svg' ),
+        url( '/fonts/OpenSans-Bold.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-Bold.woff' ) format( 'woff' );
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'OpenSansExtraBoldItalic';
+  src:  url( '/fonts/OpenSans-ExtraBoldItalic.eot' );
+  src:  url( '/fonts/OpenSans-ExtraBoltItalic.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-ExtraBoldItalic.svg#open_sansextrabold_italic' ) format( 'svg' ),
+        url( '/fonts/OpenSans-ExtraBoldItalic.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-ExtraBoldItalic.woff' ) format( 'woff' );
+  font-weight: bolder;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OpenSansExtraBold';
+  src:  url( '/fonts/OpenSans-ExtraBold.eot' );
+  src:  url( '/fonts/OpenSans-ExtraBolt.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-ExtraBold.svg#open_sansextrabold' ) format( 'svg' ),
+        url( '/fonts/OpenSans-ExtraBold.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-ExtraBold.woff' ) format( 'woff' );
+  font-weight: bolder;
+}
+@font-face {
+  font-family: 'OpenSansItalic';
+  src:  url( '/fonts/OpenSans-Italic.eot' );
+  src:  url( '/fonts/OpenSans-Italic.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-Italic.svg#open_sansitalic' ) format( 'svg' ),
+        url( '/fonts/OpenSans-Italic.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-Italic.woff' ) format( 'woff' );
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OpenSansLightItalic';
+  src:  url( '/fonts/OpenSans-LightItalic.eot' );
+  src:  url( '/fonts/OpenSans-LightItalic.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-LightItalic.svg#open_sanslight_italic' ) format( 'svg' ),
+        url( '/fonts/OpenSans-LightItalic.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-LightItalic.woff' ) format( 'woff' );
+  font-weight: lighter;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OpenSansLight';
+  src:  url( '/fonts/OpenSans-Light.eot' );
+  src:  url( '/fonts/OpenSans-Light.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-Light.svg#open_sanslight' ) format( 'svg' ),
+        url( '/fonts/OpenSans-Light.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-Light.woff' ) format( 'woff' );
+  font-weight: lighter;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src:  url( '/fonts/OpenSans-Regular.eot' );
+  src:  url( '/fonts/OpenSans-Regular.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-Regular.svg#open_sansregular' ) format( 'svg' ),
+        url( '/fonts/OpenSans-Regular.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-Regular.woff' ) format( 'woff' );
+}
+@font-face {
+  font-family: 'OpenSansSemiboldItalic';
+  src:  url( '/fonts/OpenSans-SemiboldItalic.eot' );
+  src:  url( '/fonts/OpenSans-SemiboltItalic.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-SemiboldItalic.svg#open_sanssemibold_italic' ) format( 'svg' ),
+        url( '/fonts/OpenSans-SemiboldItalic.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-SemiboldItalic.woff' ) format( 'woff' );
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src:  url( '/fonts/OpenSans-Semibold.eot' );
+  src:  url( '/fonts/OpenSans-Semibolt.eot?#iefix' ) format( 'embedded-opentype' ),
+        url( '/fonts/OpenSans-Semibold.svg#open_sanssemibold' ) format( 'svg' ),
+        url( '/fonts/OpenSans-Semibold.ttf' ) format( 'truetype' ),
+        url( '/fonts/OpenSans-Semibold.woff' ) format( 'woff' );
+  font-weight: normal;
+}

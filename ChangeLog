@@ -1,3 +1,11 @@
+2017-03-19  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
+	* css: all code located here is licensed by a private company
+	* login.php: login page prototype
+	* login.py: authenticator prototype
+
+2017-03-18  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
+	* setup.php: now creating all tables
+
 2017-03-07  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
 	* setup.php: efficient review
 	* .gitignore: ignore binaries

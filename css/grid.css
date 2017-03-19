@@ -1,0 +1,78 @@
+/*
+ * Copyright (C) 2016 Haxorsoft, Inc. All Rights Reserved.
+ *
+ * No part of this publication may be reproduced, distributed, or
+ * transmitted in any form or by any means, including photocopying,
+ * recording, or other electronic or mechanical methods, without the prior
+ * written permission of the publisher, except in the case of brief
+ * quotations embodied in critical reviews and certain other noncommercial
+ * uses permitted by copyright law. For permission requests, write to the
+ * publisher, addressed “Attention: Permissions Coordinator,” at the address
+ * below.
+ *
+ * Haxorsoft, Inc
+ * 10 Bay Ave
+ * Huntington, NY 11743
+ * www.haxorsoft.com
+ */
+.grid * {
+  box-sizing: border-box;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
+.text.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+@media only screen and ( min-width: 540px ) {
+  [class*='xs-col-'] {
+    min-height: 1px;
+    padding: 3px;
+    float: left;
+  }
+  .xs-col-1 { width: 33.334%; }
+  .xs-col-2 { width: 66.667%; }
+  .xs-col-3 { width: 100%;    }
+}
+@media only screen and ( min-width: 960px ) {
+  [class*='sm-col-'] {
+    min-height: 1px;
+    padding: 6px;
+    float: left;
+  }
+  .sm-col-1 { width: 16.667%; }
+  .sm-col-2 { width: 33.334%; }
+  .sm-col-3 { width: 50%;     }
+  .sm-col-4 { width: 66.667%; }
+  .sm-col-5 { width: 83.334%; }
+  .sm-col-6 { width: 100%;    }
+}
+@media only screen and ( min-width: 1280px ) {
+  [class*='md-col-'] {
+    min-height: 1px;
+    padding: 12px;
+    float: left;
+  }
+  .md-col-1  { width: 8.334%;   }
+  .md-col-2  { width: 16.667%;  }
+  .md-col-3  { width: 25%;      }
+  .md-col-4  { width: 33.334%;  }
+  .md-col-5  { width: 41.667%;  }
+  .md-col-6  { width: 50%;      }
+  .md-col-7  { width: 58.334%;  }
+  .md-col-8  { width: 66.667%;  }
+  .md-col-9  { width: 75%;      }
+  .md-col-10 { width: 83.334%;  }
+  .md-col-11 { width: 91.667%;  }
+  .md-col-12 { width: 100%;     }
+}

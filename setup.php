@@ -113,7 +113,23 @@ EOT;
         $stmt = $pdo->prepare( $sql );
         $stmt->execute( );
         echo "Multimedia Table Created\n";
+
+        /* additional configuration */
         echo "Done setting up database schema configuration\n";
+        $uname = DB_UNAME;
+        $hash = md5( DB_PASSWD );
+        echo "Adding username \""
+            . DB_UNAME
+            . "\" hash \""
+            . $hash
+            . "\"\n";
+        $sql = <<<EOT
+            INSERT INTO Users (username, md5hash)
+            VALUES ('$uname', '$hash')
+EOT;
+        $stmt = $pdo->prepare( $sql );
+        $stmt->execute( );
+
         $pdo = null;
     } catch( PDOException $ex ) {
         echo 'Connection failed: ' . $ex->getMessage( ) . "\n";

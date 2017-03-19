@@ -1,0 +1,67 @@
+/*
+ * Copyright (C) 2016 Haxorsoft, Inc. All Rights Reserved.
+ *
+ * No part of this publication may be reproduced, distributed, or
+ * transmitted in any form or by any means, including photocopying,
+ * recording, or other electronic or mechanical methods, without the prior
+ * written permission of the publisher, except in the case of brief
+ * quotations embodied in critical reviews and certain other noncommercial
+ * uses permitted by copyright law. For permission requests, write to the
+ * publisher, addressed “Attention: Permissions Coordinator,” at the address
+ * below.
+ *
+ * Haxorsoft, Inc
+ * 10 Bay Ave
+ * Huntington, NY 11743
+ * www.haxorsoft.com
+ */
+.navigation {
+  background-color: #00f;
+  overflow: hidden;
+  width: 100%;
+}
+.header,
+.active,
+.item {
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+  display: block;
+  float: left;
+  color: #fff;
+}
+.header {
+  font-family:  'OpenSansBold',
+                'RobotoSansBold',
+                'LatoBold',
+                'PTSansBold',
+                sans-serif;
+}
+.active {
+  background: #333 !important;
+  color: #fff !important;
+}
+.item:link,
+.item:visited {
+  background: #000;
+  color: #fff;
+}
+.item:active,
+.item:hover {
+  background: #333;
+  color: #fff;
+}
+.right-menu {
+  float: right;
+}
+@media only screen and ( max-width: 960px ) {
+  .active,
+  .item {
+    display: none;
+    clear: both;
+    width: 90%;
+  }
+  .right-menu {
+    float: none;
+  }
+}

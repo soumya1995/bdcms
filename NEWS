@@ -1,3 +1,6 @@
+Version 0.8.3 (18 March 2017)
+ * Setup script now creates tables.
+
 Version 0.8.2 (7 March 2017)
  * Thorough code review of database setup script.
 
