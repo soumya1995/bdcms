@@ -1,22 +1,13 @@
-<?php
-    // vim: number ts=4 sw=4 expandtab
-    if( $_COOKIE ) {
-        if( strcmp( $_COOKIE[ "session" ], "yes" ) ) {
-            $session_id = $_COOKIE[ "session_id" ];
-            header( 'Location: post.php' );
-        }
-    }
-?>
 <!DOCTYPE html>
 <html><head>
 <title></title>
 <meta charset="utf-8" />
-<link type="text/css" href="css/fonts/font-awesome.css" rel="stylesheet" />
-<link type="text/css" href="css/fonts/opensans-fonts.css" rel="stylesheet" />
-<link type="text/css" href="css/reset.css" rel="stylesheet" />
-<link type="text/css" href="css/site.css" rel="stylesheet" />
-<link type="text/css" href="css/navigation.css" rel="stylesheet" />
-<link type="text/css" href="css/grid.css" rel="stylesheet" />
+<link type="text/css" href="/css/fonts/font-awesome.css" rel="stylesheet" />
+<link type="text/css" href="/css/fonts/opensans-fonts.css" rel="stylesheet" />
+<link type="text/css" href="/css/reset.css" rel="stylesheet" />
+<link type="text/css" href="/css/site.css" rel="stylesheet" />
+<link type="text/css" href="/css/navigation.css" rel="stylesheet" />
+<link type="text/css" href="/css/grid.css" rel="stylesheet" />
 <style type="text/css">
 html {
     min-height: 100%;
@@ -62,6 +53,6 @@ html {
 <a class="links" href="#">Tech Support</a>
 <a class="links" href="#">Privacy</a>
 <a class="links" href="#">Terms of Use</a>
-<p class="align-center small">Copyright &copy; <?php echo date('Y'); ?> Benevolent DevOps. All Rights Reserved.</p>
+<p class="align-center small">Copyright &copy; 2017 Benevolent DevOps. All Rights Reserved.</p>
 </div></div>
 </body></html>

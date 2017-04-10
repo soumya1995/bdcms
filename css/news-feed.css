@@ -1,0 +1,37 @@
+/*
+ * Copyright (C) 2016 Haxorsoft, Inc. All Rights Reserved.
+ *
+ * No part of this publication may be reproduced, distributed, or
+ * transmitted in any form or by any means, including photocopying,
+ * recording, or other electronic or mechanical methods, without the prior
+ * written permission of the publisher, except in the case of brief
+ * quotations embodied in critical reviews and certain other noncommercial
+ * uses permitted by copyright law. For permission requests, write to the
+ * publisher, addressed “Attention: Permissions Coordinator,” at the address
+ * below.
+ *
+ * Haxorsoft, Inc
+ * 10 Bay Ave
+ * Huntington, NY 11743
+ * www.haxorsoft.com
+ */
+.news-feed {
+  padding-bottom: 1em;
+  border-bottom: #000 1px solid;
+  line-height: 1.3em;
+}
+.news-feed:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.news-feed .title {
+  line-height: 1.37em;
+  margin-top: 1em;
+  font-size: 1.17em;
+  color: #333;
+}
+.news-feed .metadata {
+  margin-bottom: 1.33em;
+  color: #333;
+}
+

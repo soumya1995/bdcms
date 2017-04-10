@@ -16,7 +16,7 @@
  * www.haxorsoft.com
  */
 .navigation {
-  background-color: #00f;
+  background-color: #000;
   overflow: hidden;
   width: 100%;
 }
@@ -36,6 +36,7 @@
                 'LatoBold',
                 'PTSansBold',
                 sans-serif;
+  padding: .87em;
 }
 .active {
   background: #333 !important;

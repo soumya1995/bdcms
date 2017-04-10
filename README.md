@@ -40,6 +40,11 @@ Assistant Researcher, teaching assistant at Stony Brook of perhaps one of the
 most important class in the Computer Science Dept. CSE 101 by incentivizing,
 and helping new students to become acquainted to the subject.
 
+* Group No. 7
+
+In a joint effort we are welcoming new front-end developers from Group 7,
+Maksym Trojanowski, Jacqueline Diaz, and Jacky Yue.
+
 # Instructions
 When developing using this repository, please do the following:
 

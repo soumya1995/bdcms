@@ -1,3 +1,7 @@
+2017-04-03  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
+	* Added captcha to login page
+	* Moved directory around to accomodate group #7
+
 2017-03-19  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
 	* css: all code located here is licensed by a private company
 	* login.php: login page prototype
