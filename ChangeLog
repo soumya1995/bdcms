@@ -1,3 +1,6 @@
+2017-04-16  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
+	* Added MongoDB scripts for querying, inserting, and setup
+
 2017-04-03  Rimack Zelnick  <rzelnick@cs.stonybrook.edu>
 	* Added captcha to login page
 	* Moved directory around to accomodate group #7

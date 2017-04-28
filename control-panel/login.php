@@ -3,7 +3,7 @@
     if( $_COOKIE ) {
         if( strcmp( $_COOKIE[ "session" ], "yes" ) ) {
             $session_id = $_COOKIE[ "session_id" ];
-            header( 'Location: post.php' );
+            header( 'Location: dashboard.php' );
         }
     }
 ?>
